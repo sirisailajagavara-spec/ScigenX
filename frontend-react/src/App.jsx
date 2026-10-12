@@ -1,8 +1,8 @@
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 
-const API = "http://127.0.0.1:5000/api";
+const API = import.meta.env.VITE_API_URL || "/api";
 
 function Icon({ children }) {
   return <span className="icon" aria-hidden="true">{children}</span>;
@@ -10,6 +10,8 @@ function Icon({ children }) {
 
 function App() {
   const [page, setPage] = useState("overview");
+
+  const [backendStatus, setBackendStatus] = useState("checking"); // "connected" | "disconnected" | "checking"
 
   const [searchQuery, setSearchQuery] = useState("");
   const [papers, setPapers] = useState([]);
@@ -21,6 +23,29 @@ function App() {
   const [analysis, setAnalysis] = useState(null);
   const [analysisLoading, setAnalysisLoading] = useState(false);
   const [analysisError, setAnalysisError] = useState("");
+
+  useEffect(() => {
+    let isMounted = true;
+    async function checkBackend() {
+      try {
+        const res = await fetch(`${API}/health`);
+        if (res.ok && isMounted) {
+          setBackendStatus("connected");
+        } else if (isMounted) {
+          setBackendStatus("disconnected");
+        }
+      } catch {
+        if (isMounted) setBackendStatus("disconnected");
+      }
+    }
+
+    checkBackend();
+    const interval = setInterval(checkBackend, 5000);
+    return () => {
+      isMounted = false;
+      clearInterval(interval);
+    };
+  }, []);
 
   async function searchPapers(event) {
     event.preventDefault();
@@ -174,8 +199,43 @@ function App() {
           </div>
 
           <div className="topbar-right">
-            <span className="system-status">
-              <span className="online-dot" /> Research workspace
+            <span
+              className="system-status"
+              style={{
+                color:
+                  backendStatus === "connected"
+                    ? "#10b981"
+                    : backendStatus === "checking"
+                    ? "#f59e0b"
+                    : "#ef4444",
+                borderColor:
+                  backendStatus === "connected"
+                    ? "rgba(16, 185, 129, 0.2)"
+                    : backendStatus === "checking"
+                    ? "rgba(245, 158, 11, 0.2)"
+                    : "rgba(239, 68, 68, 0.2)",
+              }}
+            >
+              <span
+                className="online-dot"
+                style={{
+                  background:
+                    backendStatus === "connected"
+                      ? "#10b981"
+                      : backendStatus === "checking"
+                      ? "#f59e0b"
+                      : "#ef4444",
+                  boxShadow:
+                    backendStatus === "connected"
+                      ? "0 0 8px #10b981"
+                      : "none",
+                }}
+              />{" "}
+              {backendStatus === "connected"
+                ? "Backend Connected"
+                : backendStatus === "checking"
+                ? "Checking Backend..."
+                : "Backend Disconnected"}
             </span>
             <div className="avatar">SX</div>
           </div>
