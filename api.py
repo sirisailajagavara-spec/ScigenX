@@ -1,8 +1,7 @@
 
-import os
-import requests
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+import traceback
 
 from src.scigenx_core import (
     analyze_research,
@@ -12,165 +11,109 @@ from src.scigenx_core import (
 app = Flask(__name__)
 CORS(app)
 
-app.config["MAX_CONTENT_LENGTH"] = 50 * 1024 * 1024
 
-CROSSREF_API = "https://api.crossref.org/works"
-
-
-class UploadedPDF:
-    """Adapt Flask uploads to the interface expected by the existing core."""
-
-    def __init__(self, storage):
-        self.name = storage.filename
-        self._content = storage.read()
-
-    def getvalue(self):
-        return self._content
-
-
-@app.get("/api/health")
-def health():
+@app.route("/api/health", methods=["GET"])
+def health_check():
     return jsonify({
         "status": "success",
         "message": "SciGenX API is running"
-    })
+    }), 200
 
 
-@app.get("/api/search")
+@app.route("/api/search", methods=["GET"])
 def search_papers():
-    """Search academic publication metadata using Crossref."""
-
+    """
+    Search research papers using the existing search module.
+    """
     query = request.args.get("q", "").strip()
 
-    if len(query) < 2:
+    if not query:
         return jsonify({
             "status": "error",
-            "message": "Enter a research topic with at least 2 characters."
+            "message": "Please enter a search query."
         }), 400
 
     try:
-        response = requests.get(
-            CROSSREF_API,
-            params={
-                "query": query,
-                "rows": 10,
-                "select": (
-                    "title,author,published,created,DOI,"
-                    "URL,publisher,container-title,type"
-                ),
-            },
-            headers={
-                "User-Agent": "SciGenX/1.0 (academic research project)"
-            },
-            timeout=20,
-        )
-        response.raise_for_status()
+        from src.scigenx_core import search_research_papers
 
-        items = response.json().get("message", {}).get("items", [])
-        papers = []
-
-        for item in items:
-            titles = item.get("title") or []
-            title = titles[0].strip() if titles else "Untitled paper"
-
-            authors = []
-            for author in item.get("author", [])[:5]:
-                given = author.get("given", "")
-                family = author.get("family", "")
-                name = f"{given} {family}".strip()
-                if name:
-                    authors.append(name)
-
-            published = item.get("published", {}).get("date-parts", [])
-            year = (
-                published[0][0]
-                if published and published[0]
-                else None
-            )
-
-            doi = item.get("DOI")
-            doi_url = f"https://doi.org/{doi}" if doi else item.get("URL")
-
-            journals = item.get("container-title") or []
-
-            papers.append({
-                "title": title,
-                "authors": authors,
-                "year": year,
-                "doi": doi,
-                "url": doi_url,
-                "publisher": item.get("publisher", ""),
-                "journal": journals[0] if journals else "",
-                "type": item.get("type", ""),
-            })
+        papers = search_research_papers(query)
 
         return jsonify({
             "status": "success",
             "query": query,
-            "count": len(papers),
-            "papers": papers,
-        })
+            "papers": papers
+        }), 200
 
-    except requests.RequestException as exc:
-        app.logger.warning("Crossref search failed: %s", exc)
+    except ImportError:
         return jsonify({
             "status": "error",
             "message": (
-                "Could not reach the academic search service. "
-                "Check your internet connection and try again."
+                "Paper search is not connected to this API yet. "
+                "Please preserve your existing working search function."
             )
-        }), 502
+        }), 501
 
-    except (ValueError, TypeError) as exc:
-        app.logger.exception("Invalid Crossref response")
+    except Exception as exc:
+        app.logger.exception("Paper search failed")
         return jsonify({
             "status": "error",
-            "message": "The search service returned an invalid response."
-        }), 502
+            "message": str(exc)
+        }), 500
 
 
-@app.post("/api/analyze")
+@app.route("/api/analyze", methods=["POST"])
 def analyze_papers():
-    """Analyze uploaded PDFs with the existing SciGenX core."""
-
+    """
+    Receive uploaded research PDFs and a research question,
+    analyze them using the existing SciGenX core, and return
+    evidence and citation-verification results to React.
+    """
     question = request.form.get("question", "").strip()
-    uploaded_files = request.files.getlist("papers")
+    papers = request.files.getlist("papers")
 
     if not question:
         return jsonify({
             "status": "error",
-            "message": "Enter a research question."
+            "message": "Please enter a research question."
         }), 400
 
-    pdf_files = [
-        file for file in uploaded_files
-        if file and file.filename
-    ]
-
-    if not pdf_files:
+    if not papers or not any(p.filename for p in papers):
         return jsonify({
             "status": "error",
-            "message": "Upload at least one PDF research paper."
+            "message": "Please upload at least one research PDF."
         }), 400
 
-    for file in pdf_files:
-        if not file.filename.lower().endswith(".pdf"):
-            return jsonify({
-                "status": "error",
-                "message": "Only PDF files are supported."
-            }), 400
+    valid_papers = [
+        paper for paper in papers
+        if paper.filename and paper.filename.lower().endswith(".pdf")
+    ]
+
+    if not valid_papers:
+        return jsonify({
+            "status": "error",
+            "message": "Please upload valid PDF files."
+        }), 400
 
     try:
-        adapted_files = [UploadedPDF(file) for file in pdf_files]
+        # Preserve the existing core analysis implementation.
+        result = analyze_research(valid_papers, question)
 
-        result = analyze_research(adapted_files, question)
+        if not isinstance(result, dict):
+            return jsonify({
+                "status": "error",
+                "message": "The analysis core returned an unexpected result."
+            }), 500
 
         answer = result.get("answer", "")
         sources = result.get("sources", [])
 
-        verification = verify_answer_citations(answer, sources)
+        # Verify citations against the retrieved evidence.
+        citation_verification = verify_answer_citations(
+            answer,
+            sources
+        )
 
-        return jsonify({
+        response = {
             "status": "success",
             "question": question,
             "answer": answer,
@@ -179,27 +122,38 @@ def analyze_papers():
                 "total_pages_with_text", 0
             ),
             "total_chunks": result.get("total_chunks", 0),
-            "citation_verification": verification,
-        })
+            "citation_verification": citation_verification
+        }
 
-    except Exception:
+        return jsonify(response), 200
+
+    except Exception as exc:
         app.logger.exception("Research analysis failed")
         return jsonify({
             "status": "error",
-            "message": (
-                "Research analysis failed. Check the API terminal "
-                "for the detailed error."
-            )
+            "message": str(exc)
         }), 500
 
 
-@app.errorhandler(413)
-def request_too_large(_error):
+@app.errorhandler(404)
+def not_found(_error):
     return jsonify({
         "status": "error",
-        "message": "The uploaded files exceed the 50 MB limit."
-    }), 413
+        "message": "API endpoint not found."
+    }), 404
+
+
+@app.errorhandler(405)
+def method_not_allowed(_error):
+    return jsonify({
+        "status": "error",
+        "message": "HTTP method not allowed for this endpoint."
+    }), 405
 
 
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=5000, debug=False)
+    app.run(
+        host="127.0.0.1",
+        port=5000,
+        debug=False
+    )
