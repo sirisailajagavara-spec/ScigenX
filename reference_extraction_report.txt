@@ -1,0 +1,692 @@
+SciGenX Reference Extraction Report
+======================================================================
+
+PDF files: 3
+Pages with text: 80
+Extracted reference entries: 170
+
+[1] M. Altieri. Agroecology: The Science Of Sustainable Agriculture. CRC Press, Endereço, 2nd edition edition, February 2018.
+Source: plant_desease.pdf
+Page: 35
+
+[2] Sharada P. Mohanty, David P. Hughes, and Marcel Salathé. Using deep learning for image-based plant disease detection. Frontiers in Plant Science, 7:1419, 2016.
+Source: plant_desease.pdf
+Page: 35
+
+[3] Sally A. Miller, Fen D. Beed, and Carrie Lapaire Harmon. Plant Disease Diagnostic Capabilities and Networks. Annual Review of Phytopathology, 47(1):15–38, sep 2009.
+Source: plant_desease.pdf
+Page: 35
+
+[4] Anne-Katrin Mahlein. Plant disease detection by imaging sensors – parallels and speciﬁc demands for precision agriculture and plant phenotyping. Plant Disease, 100(2):241–251, 2016.
+Source: plant_desease.pdf
+Page: 35
+
+[5] Jayme Garcia Arnal Barbedo. Digital image processing techniques for detecting, quantifying and classifying plant diseases. SpringerPlus, 2(1):660, Dec 2013.
+Source: plant_desease.pdf
+Page: 35
+
+[6] Y. Lecun, L. Bottou, Y. Bengio, and P. Haffner. Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11):2278–2324, Nov 1998.
+Source: plant_desease.pdf
+Page: 35
+
+[7] Sindhuja Sankaran, Ashish Mishra, Reza Ehsani, and Cristina Davis. A review of advanced techniques for detecting plant diseases. Computers and Electronics in Agriculture, 72(1):1 – 13, 2010.
+Source: plant_desease.pdf
+Page: 35
+
+[8] Federico Martinelli, Riccardo Scalenghe, Salvatore Davino, Stefano Panno, Giuseppe Scuderi, Paolo Ruisi, Paolo Villa, Daniela Stroppiana, Mirco Boschetti, Luiz R. Goulart, Cristina E. Davis, and Abhaya M. Dandekar. Advanced methods of plant disease detection. a review. Agronomy for Sustainable Development, 35(1):1–25, Jan 2015.
+Source: plant_desease.pdf
+Page: 35
+
+[9] Y. Lecun, L. Bottou, Y. Bengio, and P. Haffner. Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11):2278–2324, Nov 1998.
+Source: plant_desease.pdf
+Page: 35
+
+[10] Alex Krizhevsky, Ilya Sutskever, and Geoffrey E. Hinton. Imagenet classiﬁcation with deep convolutional neural networks. In Proceedings of the 25th International Conference on Neural Information Processing Systems - Volume 1, NIPS’12, pages 1097–1105, USA, 2012. Curran Associates Inc.
+Source: plant_desease.pdf
+Page: 35
+
+[11] Karen Simonyan and Andrew Zisserman. Very deep convolutional networks for large-scale image recognition. CoRR, abs/1409.1556, 2014.
+Source: plant_desease.pdf
+Page: 35
+
+[12] C. Szegedy, Wei Liu, Yangqing Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, V. Vanhoucke, and A. Rabinovich. Going deeper with convolutions. In 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 1–9, June 2015.
+Source: plant_desease.pdf
+Page: 35
+
+[13] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, and Zbigniew Wojna. Rethinking the inception architecture for computer vision. 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 2818–2826, 2015. 35 Plant Diseases recognition on images using Convolutional Neural Networks: A Systematic Review A PREPRINT
+Source: plant_desease.pdf
+Page: 35
+
+[14] K. He, X. Zhang, S. Ren, and J. Sun. Deep residual learning for image recognition. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 770–778, June 2016.
+Source: plant_desease.pdf
+Page: 36
+
+[15] G. Huang, Z. Liu, L. v. d. Maaten, and K. Q. Weinberger. Densely connected convolutional networks. In 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 2261–2269, July 2017.
+Source: plant_desease.pdf
+Page: 36
+
+[16] Barbara Kitchenham. Procedures for performing systematic reviews. Keele university. technical report tr/se-0401, Keele University Technical Report, Department of Computer Science, Keele University, UK, 2004.
+Source: plant_desease.pdf
+Page: 36
+
+[17] Sandra C. P. F. Fabbri, Katia R. Felizardo, Fabiano Cutigi Ferrari, E. C. M. Hernandes, F. R. Octaviano, E. Y. Nakagawa, and J. C. Maldonado. Externalising tacit knowledge of the systematic review process. IET Software, 7(6):298–307, 2013.
+Source: plant_desease.pdf
+Page: 36
+
+[18] Jayme Garcia Arnal Barbedo. A review on the main challenges in automatic plant disease identiﬁcation based on visible range images. Biosystems Engineering, 144:52 – 60, 2016.
+Source: plant_desease.pdf
+Page: 36
+
+[19] Z. B. Husin, A. Y. B. M. Shakaff, A. H. B. A. Aziz, and R. B. S. M. Farook. Feasibility study on plant chili disease detection using image processing techniques. In 2012 Third International Conference on Intelligent Systems Modelling and Simulation, pages 291–296, Feb 2012.
+Source: plant_desease.pdf
+Page: 36
+
+[20] George Agrios. Plant pathology: Fifth edition, volume 9780080473789. Academic Press, dec 2005.
+Source: plant_desease.pdf
+Page: 36
+
+[21] Ian Goodfellow, Yoshua Bengio, and Aaron Courville. Deep Learning. MIT Press, 2016. http://www.deeplearningbook. org.
+Source: plant_desease.pdf
+Page: 36
+
+[22] Asifullah Khan, Anabia Sohail, Umme Zahoora, and Aqsa Saeed Qureshi. A survey of the recent architectures of deep convolutional neural networks. CoRR, abs/1901.06032, 2019.
+Source: plant_desease.pdf
+Page: 36
+
+[23] S. J. Pan and Q. Yang. A survey on transfer learning. IEEE Transactions on Knowledge and Data Engineering, 22(10):1345– 1359, Oct 2010.
+Source: plant_desease.pdf
+Page: 36
+
+[24] L. Shao, F. Zhu, and X. Li. Transfer learning for visual categorization: A survey. IEEE Transactions on Neural Networks and Learning Systems, 26(5):1019–1034, May 2015.
+Source: plant_desease.pdf
+Page: 36
+
+[25] Ines Khandelwal and Sundaresan Raman. Analysis of transfer and residual learning for detecting plant diseases using images of leaves. In Nishchal K. Verma and A. K. Ghosh, editors, Computational Intelligence: Theories, Applications and Future Directions - Volume II, pages 295–306, Singapore, 2019. Springer Singapore.
+Source: plant_desease.pdf
+Page: 36
+
+[26] T. Sledevic. Adaptation of convolution and batch normalization layer for cnn implementation on fpga. In 2019 Open Conference of Electrical, Electronic and Information Sciences (eStream), pages 1–4, 2019.
+Source: plant_desease.pdf
+Page: 36
+
+[27] Connor Shorten and Taghi M. Khoshgoftaar. A survey on image data augmentation for deep learning. Journal of Big Data, 6(1):60, Jul 2019. 36 Plant Diseases recognition on images using Convolutional Neural Networks: A Systematic Review A PREPRINT
+Source: plant_desease.pdf
+Page: 36
+
+[28] Elis Montoro Hernandes, Augusto Zamboni, Sandra Fabbri, and A. Di Thommazo. Using GQM and TAM to evaluate StArt - a tool that supports systematic review. CLEI Electronic Journal, 15(1), 2012.
+Source: plant_desease.pdf
+Page: 37
+
+[29] Kai Petersen, Robert Feldt, Shahid Mujtaba, and Michael Mattsson. Systematic mapping studies in software engineering. In 12th International Conference on Evaluation and Assessment in Software Engineering (EASE), pages 68–77, Swinton, UK, UK,
+Source: plant_desease.pdf
+Page: 37
+
+[2008] British Computer Society.
+Source: plant_desease.pdf
+Page: 37
+
+[30] Barbara A. Kitchenham. Systematic review in software engineering: Where we are and where we should be going. In Proceedings of the 2Nd International Workshop on Evidential Assessment of Software Technologies, EAST ’12, pages 1–2, New York, NY, USA, 2012. ACM.
+Source: plant_desease.pdf
+Page: 37
+
+[31] Mark Staples and Mahmood Niazi. Experiences using systematic review guidelines. J. Syst. Softw., 80(9):1425–1437, September 2007.
+Source: plant_desease.pdf
+Page: 37
+
+[32] Alessandro Liberati, Douglas G. Altman, Jennifer Tetzlaff, Cynthia Mulrow, Peter C. Gøtzsche, John P.A. Ioannidis, Mike Clarke, P. J. Devereaux, Jos Kleijnen, and David Moher. The PRISMA Statement for Reporting Systematic Reviews and Meta-Analyses of Studies That Evaluate Health Care Interventions: Explanation and Elaboration. Annals of Internal Medicine, 151(4):W–65–W–94, 08 2009.
+Source: plant_desease.pdf
+Page: 37
+
+[33] Nina Buscemi, Lisa Hartling, Ben Vandermeer, Lisa Tjosvold, and Terry P. Klassen. Single data extraction generated more errors than double data extraction in systematic reviews. Journal of Clinical Epidemiology, 59(7):697–703, jul 2006.
+Source: plant_desease.pdf
+Page: 37
+
+[34] David P. Hughes and Marcel Salathé. An open access repository of images on plant health to enable the development of mobile disease diagnostics through machine learning and crowdsourcing. CoRR, abs/1511.08060, 2016.
+Source: plant_desease.pdf
+Page: 37
+
+[35] Sambuddha Ghosal, David Blystone, Asheesh K. Singh, Baskar Ganapathysubramanian, Arti Singh, and Soumik Sarkar. An explainable deep machine vision framework for plant stress phenotyping. Proceedings of the National Academy of Sciences, 115(18):4613–4618, 2018.
+Source: plant_desease.pdf
+Page: 37
+
+[36] Bin Liu, Yun Zhang, DongJian He, and Yuxiang Li. Identiﬁcation of apple leaf diseases based on deep convolutional neural networks. Symmetry, 10(1), 2017.
+Source: plant_desease.pdf
+Page: 37
+
+[37] Weihui Zeng, Miao Li, Jian Zhang, Lei Chen, Sisi Fang, and Jingxian Wang. High-order residual convolutional neural network for robust crop disease recognition. In Proceedings of the 2Nd International Conference on Computer Science and Application Engineering, CSAE ’18, pages 101:1–101:5, New York, NY, USA, 2018. ACM.
+Source: plant_desease.pdf
+Page: 37
+
+[38] Yunong Tian, Guodong Yang, Zhe Wang, En Li, and Zize Liang. Detection of apple lesions in orchards based on deep learning methods of cyclegan and yolov3-dense. Journal of Sensors, 2019:1 – 13, 2019. Hindawi.
+Source: plant_desease.pdf
+Page: 37
+
+[39] X. Zhang, L. Han, Y. Dong, Y. Shi, W. Huang, L. Han, P. González-Moreno, H. Ma, H. Ye, and T Sobeih. A deep learning-based approach for automated yellow rust disease detection from high-resolution hyperspectral uav images. MDPI Open Acess Journal - Remote Sensing in Agriculture and Vegetation, 11:1554, 2019. 37 Plant Diseases recognition on images using Convolutional Neural Networks: A Systematic Review A PREPRINT
+Source: plant_desease.pdf
+Page: 37
+
+[40] Dongyi Wang, Robert Vinson, Maxwell Holmes, Gary Seibel, Avital Bechar, Shimon Nof, and Yang Tao. Early Detection of Tomato Spotted Wilt Virus by Hyperspectral Imaging and Outlier Removal Auxiliary Classiﬁer Generative Adversarial Nets (OR-AC-GAN). Scientiﬁc Reports, 9(1):4377, dec 2018.
+Source: plant_desease.pdf
+Page: 38
+
+[41] Koushik Nagasubramanian, Sarah Jones, Asheesh K. Singh, Soumik Sarkar, Arti Singh, and Baskar Ganapathysubramanian. Plant disease identiﬁcation using explainable 3d deep learning on hyperspectral images. Plant Methods, 15(1):98, 2019.
+Source: plant_desease.pdf
+Page: 38
+
+[42] Jayme Garcia Arnal Barbedo. Impact of dataset size and variety on the effectiveness of deep learning and transfer learning for plant disease classiﬁcation. Computers and Electronics in Agriculture, 153:46 – 53, 2018.
+Source: plant_desease.pdf
+Page: 38
+
+[43] P. Goncharov, G. Ososkov, A. Nechaevskiy, A. Uzhinskiy, and I. Nestsiarenia. Disease detection on the plant leaves by deep learning. In Boris Kryzhanovsky, Witali Dunin-Barkowski, Vladimir Redko, and Yury Tiumentsev, editors, Advances in Neural Computation, Machine Learning, and Cognitive Research II, pages 151–159, Cham, 2019. Springer International Publishing.
+Source: plant_desease.pdf
+Page: 38
+
+[44] Martín Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen, Craig Citro, Greg S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Ian Goodfellow, Andrew Harp, Geoffrey Irving, Michael Isard, Yangqing Jia, Rafal Jozefowicz, Lukasz Kaiser, Manjunath Kudlur, Josh Levenberg, Dan Mané, Rajat Monga, Sherry Moore, Derek Murray, Chris Olah, Mike Schuster, Jonathon Shlens, Benoit Steiner, Ilya Sutskever, Kunal Talwar, Paul Tucker, Vincent Vanhoucke, Vijay Vasudevan, Fernanda Viégas, Oriol Vinyals, Pete Warden, Martin Wattenberg, Martin Wicke, Yuan Yu, and Xiaoqiang Zheng. TensorFlow: Large-scale machine learning on heterogeneous systems, 2015. Software available from tensorﬂow.org.
+Source: plant_desease.pdf
+Page: 38
+
+[45] François Chollet et al. Keras. https://keras.io, 2015.
+Source: plant_desease.pdf
+Page: 38
+
+[46] Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael S. Bernstein, Alexander C. Berg, and Fei-Fei Li. Imagenet large scale visual recognition challenge. CoRR, abs/1409.0575, 2014.
+Source: plant_desease.pdf
+Page: 38
+
+[47] H. Charles J. Godfray, Daniel Mason-D’Croz, and Sherman Robinson. Food system consequences of a fungal disease epidemic in a major crop. Philosophical transactions of the Royal Society of London. Series B, Biological sciences, 371(1709):20150467, Dec 2016.
+Source: plant_desease.pdf
+Page: 38
+
+[48] Shanwen Zhang, Subing Zhang, Chuanlei Zhang, Xianfeng Wang, and Yun Shi. Cucumber leaf disease identiﬁcation with global pooling dilated convolutional neural network. Computers and Electronics in Agriculture, 162:422 – 430, 2019.
+Source: plant_desease.pdf
+Page: 38
+
+[49] Md Mehedi Hasan, Joshua P. Chopin, Hamid Laga, and Stanley J. Miklavcic. Detection and analysis of wheat spikes using convolutional neural networks. Plant Methods, 15, Mar 2019.
+Source: plant_desease.pdf
+Page: 38
+
+[50] Parul Sharma, Yash Paul Singh Berwal, and Wiqas Ghai. Performance analysis of deep learning cnn models for disease detection in plants using image segmentation. Information Processing in Agriculture, 2019.
+Source: plant_desease.pdf
+Page: 38
+
+[51] Qiaokang Liang, Shao Xiang, Yucheng Hu, Gianmarc Coppola, Dan Zhang, and Wei Sun. Pd2se-net: Computer-assisted plant disease diagnosis and severity estimation network. Computers and Electronics in Agriculture, 157:518 – 529, 2019. 38 Plant Diseases recognition on images using Convolutional Neural Networks: A Systematic Review A PREPRINT
+Source: plant_desease.pdf
+Page: 38
+
+[52] S. Huang, W. Liu, F. Qi, and K. Yang. Development and validation of a deep learning algorithm for the recognition of plant disease. In 2019 IEEE 21st International Conference on High Performance Computing and Communications; IEEE 17th Inter- national Conference on Smart City; IEEE 5th International Conference on Data Science and Systems (HPCC/SmartCity/DSS), pages 1951–1957, 2019.
+Source: plant_desease.pdf
+Page: 39
+
+[53] Artzai Picon, Maximiliam Seitz, Aitor Alvarez-Gila, Patrick Mohnke, Amaia Ortiz-Barredo, and Jone Echazarra. Crop conditional convolutional neural networks for massive multi-crop plant disease classiﬁcation over cell phone acquired images taken on real ﬁeld conditions. Computers and Electronics in Agriculture, 167:105093, 2019.
+Source: plant_desease.pdf
+Page: 39
+
+[54] Tyr Wiesner-Hanks, Harvey Wu, Ethan Stewart, Chad DeChant, Nicholas Kaczmar, Hod Lipson, Michael A. Gore, and Rebecca J. Nelson. Millimeter-level plant disease detection from aerial photographs via deep learning and crowdsourced data. Frontiers in Plant Science, 10:1550, 2019.
+Source: plant_desease.pdf
+Page: 39
+
+[55] Shanwen Zhang, Wenzhun Huang, and Chuanlei Zhang. Three-channel convolutional neural networks for vegetable leaf disease recognition. Cognitive Systems Research, 53:31 – 41, 2019. Advanced Intelligent Computing.
+Source: plant_desease.pdf
+Page: 39
+
+[56] Wan-jie Liang, Hong Zhang, Gu-feng Zhang, and Hong-xin Cao. Rice Blast Disease Recognition Using a Deep Convolutional Neural Network. Scientiﬁc Reports, 9(1):2869, dec 2019.
+Source: plant_desease.pdf
+Page: 39
+
+[57] S. S. Hari, M. Sivakumar, P. Renuga, S. karthikeyan, and S. Suriya. Detection of plant disease by leaf image using convolutional neural network. In 2019 International Conference on Vision Towards Emerging Trends in Communication and Networking (ViTECoN), pages 1–5, March 2019.
+Source: plant_desease.pdf
+Page: 39
+
+[58] Z. Lin, S. Mu, F. Huang, K. A. Mateen, M. Wang, W. Gao, and J. Jia. A uniﬁed matrix-based convolutional neural network for ﬁne-grained image classiﬁcation of wheat leaf diseases. IEEE Access, 7:11570–11590, 2019.
+Source: plant_desease.pdf
+Page: 39
+
+[59] M. Brahimi, S. Mahmoudi, K. Boukhalfa, and A. Moussaoui. Deep interpretable architecture for plant diseases classiﬁcation. In 2019 Signal Processing: Algorithms, Architectures, Arrangements, and Applications (SPA), pages 111–116, 2019.
+Source: plant_desease.pdf
+Page: 39
+
+[60] Jayme Garcia Arnal Barbedo. Plant disease identiﬁcation from individual lesions and spots using deep learning. Biosystems Engineering, 180:96 – 107, 2019.
+Source: plant_desease.pdf
+Page: 39
+
+[61] Alwaseela Abdalla, Haiyan Cen, Liang Wan, Reem Rashid, Haiyong Weng, Weijun Zhou, and Yong He. Fine-tuning convolutional neural network with transfer learning for semantic segmentation of ground-level oilseed rape images in a ﬁeld with high weed pressure. Computers and Electronics in Agriculture, 167:105091, 2019.
+Source: plant_desease.pdf
+Page: 39
+
+[62] U. P. Singh, S. S. Chouhan, S. Jain, and S. Jain. Multilayer convolution neural network for the classiﬁcation of mango leaves infected by anthracnose disease. IEEE Access, 7:43721–43729, 2019.
+Source: plant_desease.pdf
+Page: 39
+
+[63] Yin Long and Changhua Liu. Research on deep learning method of crop disease identiﬁcation. In Proceedings of the International Conference on Artiﬁcial Intelligence, Information Processing and Cloud Computing, AIIPCC ’19, pages 1–6, New York, NY, USA, 2019. Association for Computing Machinery. 39 Plant Diseases recognition on images using Convolutional Neural Networks: A Systematic Review A PREPRINT
+Source: plant_desease.pdf
+Page: 39
+
+[64] Michael Gomez Selvaraj, Alejandro Vergara, Henry Ruiz, Nancy Safari, Sivalingam Elayabalan, Walter Ocimati, and Guy Blomme. Ai-powered banana diseases and pest detection. Plant Methods, 15(1):92, 2019.
+Source: plant_desease.pdf
+Page: 40
+
+[65] Kamal KC, Zhendong Yin, Mingyang Wu, and Zhilu Wu. Depthwise separable convolution architectures for plant disease classiﬁcation. Computers and Electronics in Agriculture, 165:104948, 2019.
+Source: plant_desease.pdf
+Page: 40
+
+[66] Madallah Alruwaili, Saad Alanazi, Sameh Abd El-Ghany, and Abdulaziz Shehab. An efﬁcient deep learning model for olive diseases detection. International Journal of Advanced Computer Science and Applications, 10(8), 2019.
+Source: plant_desease.pdf
+Page: 40
+
+[67] Florian Rancon, Lionel Bombrun, Barna Keresztes, and Christian Germain. Comparison of sift encoded and deep learning features for the classiﬁcation and detection of esca disease in bordeaux vineyards. Remote Sensing, 11(1), 2018.
+Source: plant_desease.pdf
+Page: 40
+
+[68] Clément Douarre, Carlos F. Crispim-Junior, Anthony Gelibert, Laure Tougne, and David Rousseau. Novel data augmentation strategies to boost supervised segmentation of plant disease. Computers and Electronics in Agriculture, 165:104967, 2019.
+Source: plant_desease.pdf
+Page: 40
+
+[69] K. R. Aravind, P. Raja, R. Aniirudh, K. V. Mukesh, R. Ashiwin, and G. Vikas. Grape crop disease classiﬁcation using transfer learning approach. In Durai Pandian, Xavier Fernando, Zubair Baig, and Fuqian Shi, editors, Proceedings of the International Conference on ISMAC in Computational Vision and Bio-Engineering 2018 (ISMAC-CVB), pages 1623–1633, Cham, 2019. Springer International Publishing.
+Source: plant_desease.pdf
+Page: 40
+
+[70] Aditya Khamparia, Gurinder Saini, Deepak Gupta, Ashish Khanna, Shrasti Tiwari, and Victor Hugo C. de Albuquerque. Seasonal crops disease prediction and classiﬁcation using deep convolutional encoder network. Circuits, Systems, and Signal Processing, Jan 2019.
+Source: plant_desease.pdf
+Page: 40
+
+[71] Yosuke Toda and Fumio Okura. How Convolutional Neural Networks Diagnose Plant Disease. Plant Phenomics, 2019:1–14, mar 2019.
+Source: plant_desease.pdf
+Page: 40
+
+[72] Muammer Türkoglu and Davut Hanbay. Plant disease and pest detection using deep learning-based features. TURKISH JOURNAL OF ELECTRICAL ENGINEERING & COMPUTER SCIENCES, 27(3):1636–1651, may 2019.
+Source: plant_desease.pdf
+Page: 40
+
+[73] M. R. Howlader, U. Habiba, R. H. Faisal, and M. M. Rahman. Automatic recognition of guava leaf diseases using deep convolution neural network. In 2019 International Conference on Electrical, Computer and Communication Engineering (ECCE), pages 1–5, Feb 2019.
+Source: plant_desease.pdf
+Page: 40
+
+[74] P. Jiang, Y. Chen, B. Liu, D. He, and C. Liang. Real-time detection of apple leaf diseases using deep learning approach based on improved convolutional neural networks. IEEE Access, 7:59069–59080, 2019.
+Source: plant_desease.pdf
+Page: 40
+
+[75] Ke Lin, Liang Gong, Yixiang Huang, Chengliang Liu, and Junsong Pan. Deep learning-based segmentation and quantiﬁcation of cucumber powdery mildew using convolutional neural network. Frontiers in Plant Science, 10:155, 2019.
+Source: plant_desease.pdf
+Page: 40
+
+[76] Federico Murcia Labaña, Alberto Ruiz, and Francisco García-Sánchez. Pestdetect: Pest recognition using convolutional neural network. In Rafael Valencia-García, Gema Alcaraz-Mármol, Javier del Cioppo-Morstadt, Néstor Vera-Lucio, and 40 Plant Diseases recognition on images using Convolutional Neural Networks: A Systematic Review A PREPRINT Martha Bucaram-Leverone, editors, ICT for Agriculture and Environment, pages 99–108, Cham, 2019. Springer International Publishing.
+Source: plant_desease.pdf
+Page: 40
+
+[77] M. Arsenovic, M. Karanovic, S. Sladojevic, A. Anderla, and D. Stefanovic. Solving current limitations of deep learning based approaches for plant disease detection. MDPI Open Acess Journal - Symmetry, 11(7)(939), 2019.
+Source: plant_desease.pdf
+Page: 41
+
+[78] Solemane Coulibaly, Bernard Kamsu-Foguem, Dantouma Kamissoko, and Daouda Traore. Deep neural networks with transfer learning in millet crop images. Computers in Industry, 108:115 – 120, 2019.
+Source: plant_desease.pdf
+Page: 41
+
+[79] Gerrit Polder, Pieter M. Blok, Hendrik A. C. de Villiers, Jan M. van der Wolf, and Jan Kamp. Potato virus y detection in seed potatoes using deep learning on hyperspectral images. Frontiers in Plant Science, 10:209, 2019.
+Source: plant_desease.pdf
+Page: 41
+
+[80] Gensheng Hu, Xiaowei Yang, Yan Zhang, and Mingzhu Wan. Identiﬁcation of tea leaf diseases by using an improved deep convolutional neural network. Sustainable Computing: Informatics and Systems, 24:100353, 2019.
+Source: plant_desease.pdf
+Page: 41
+
+[81] Hee-Jin Yu and Chang-Hwan Son. Apple leaf disease identiﬁcation through region-of-interest-aware deep convolutional neural network. ArXiv, abs/1903.10356, 2019.
+Source: plant_desease.pdf
+Page: 41
+
+[82] Amanda Ramcharan, Peter McCloskey, Kelsee Baranowski, Neema Mbilinyi, Latifa Mrisho, Mathias Ndalahwa, James Legg, and David P. Hughes. A mobile-based deep learning model for cassava disease diagnosis. Frontiers in Plant Science, 10:272, 2019.
+Source: plant_desease.pdf
+Page: 41
+
+[83] Geetharamani G. and Arun Pandian J. Identiﬁcation of plant leaf diseases using a nine-layer deep convolutional neural network. Computers & Electrical Engineering, 76:323 – 338, 2019.
+Source: plant_desease.pdf
+Page: 41
+
+[84] Jie Hang, Dexiang Zhang, Peng Chen, Jun Zhang, and Bing Wang. Classiﬁcation of plant leaf diseases based on improved convolutional neural network. Sensors (Basel, Switzerland), 19(19):4161, Sep 2019.
+Source: plant_desease.pdf
+Page: 41
+
+[85] Malusi Sibiya and Mbuyu Sumbwanyambe. A computational procedure for the recognition and classiﬁcation of maize leaf diseases out of healthy leaves using convolutional neural networks. AgriEngineering, 1(1):119–131, 2019.
+Source: plant_desease.pdf
+Page: 41
+
+[86] Qimei Wang, Feng Qi, Minghe Sun, Jianhua Qu, and Jie Xue. Identiﬁcation of tomato disease types and detection of infected areas based on deep convolutional neural networks and object detection techniques. Computational Intelligence and Neuroscience, 2019(9142753):15, 2019.
+Source: plant_desease.pdf
+Page: 41
+
+[87] Mehmet Metin Ozguven and Kemal Adem. Automatic detection and classiﬁcation of leaf spot disease in sugar beet using deep learning algorithms. Physica A: Statistical Mechanics and its Applications, 535:122537, 2019.
+Source: plant_desease.pdf
+Page: 41
+
+[88] Jing Chen, Qi Liu, and Lingwang Gao. Visual tea leaf disease recognition using a convolutional neural network model. Symmetry, 11(3), 2019.
+Source: plant_desease.pdf
+Page: 41
+
+[89] Harvey Wu, Tyr Wiesner-Hanks, Ethan L. Stewart, Chad DeChant, Nicholas Kaczmar, Michael A. Gore, Rebecca J. Nelson, and Hod Lipson. Autonomous detection of plant disease symptoms directly from aerial imagery. The Plant Phenome Journal, 2(1):190006, 2019. 41 Plant Diseases recognition on images using Convolutional Neural Networks: A Systematic Review A PREPRINT
+Source: plant_desease.pdf
+Page: 41
+
+[90] Belal A. M. Ashqar and Samy S. Abu-Naser. Image-based tomato leaves diseases detection using deep learning. International Journal of Academic Engineering Research (IJAER), 2(1T2):10–16, 2019.
+Source: plant_desease.pdf
+Page: 42
+
+[91] M. Zhang, S. Liu, F. Yang, and J. Liu. Classiﬁcation of canker on small datasets using improved deep convolutional generative adversarial networks. IEEE Access, 7:49680–49690, 2019.
+Source: plant_desease.pdf
+Page: 42
+
+[92] Shuli Xing, Marely Lee, and Keun-Kwang Lee. Citrus pests and diseases recognition model using weakly dense connected convolution network. Sensors (Basel, Switzerland), 19(14):3195, Jul 2019.
+Source: plant_desease.pdf
+Page: 42
+
+[93] S. André Abade, Ana Paula G. S. de Almeida., and F. B. Vidal. Plant diseases recognition from digital images using multichannel convolutional neural networks. In Proceedings of the 14th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications - Volume 5: VISAPP,, pages 450–458. INSTICC, SciTePress, 2019.
+Source: plant_desease.pdf
+Page: 42
+
+[94] Wang Dawei, Deng Limiao, Ni Jiangong, Gao Jiyue, Zhu Hongfei, and Han Zhongzhi. Recognition pest by image-based transfer learning. Journal of the Science of Food and Agriculture, 99(10):4524–4531, 2019.
+Source: plant_desease.pdf
+Page: 42
+
+[95] Aydin Kaya, Ali Seydi Keceli, Cagatay Catal, Hamdi Yalin Yalic, Huseyin Temucin, and Bedir Tekinerdogan. Analysis of transfer learning for deep neural network based plant classiﬁcation models. Computers and Electronics in Agriculture, 158:20 – 29, 2019.
+Source: plant_desease.pdf
+Page: 42
+
+[96] C. Lin, Q. Ding, W. Tu, J. Huang, and J. Liu. Fourier dense network to conduct plant classiﬁcation using uav-based optical images. IEEE Access, 7:17736–17749, 2019.
+Source: plant_desease.pdf
+Page: 42
+
+[97] E. Suryawati, R. Sustika, R. S. Yuwana, A. Subekti, and H. F. Pardede. Deep structured convolutional neural network for tomato diseases detection. In 2018 International Conference on Advanced Computer Science and Information Systems (ICACSIS), pages 385–390, Oct 2018.
+Source: plant_desease.pdf
+Page: 42
+
+[98] R. Gandhi, S. Nimbalkar, N. Yelamanchili, and S. Ponkshe. Plant disease detection using cnns and gans as an augmentative approach. In 2018 IEEE International Conference on Innovative Research and Development (ICIRD), pages 1–5, May 2018.
+Source: plant_desease.pdf
+Page: 42
+
+[99] Edna Chebet Too, Li Yujian, Sam Njuki, and Liu Yingchun. A comparative study of ﬁne-tuning deep learning models for plant disease identiﬁcation. Computers and Electronics in Agriculture, 161:272 – 279, 2018. BigData and DSS in Agriculture.
+Source: plant_desease.pdf
+Page: 42
+
+[100] R. G. de Luna, E. P. Dadios, and A. A. Bandala. Automated image capturing system for deep learning-based tomato plant leaf disease detection and recognition. In TENCON 2018 - 2018 IEEE Region 10 Conference, pages 1414–1419, Oct 2018.
+Source: plant_desease.pdf
+Page: 42
+
+[101] Mohammed Brahimi, Marko Arsenovic, Sohaib Laraba, Srdjan Sladojevic, Kamel Boukhalfa, and Abdelouhab Moussaoui. Deep Learning for Plant Diseases: Detection and Saliency Map Visualisation, pages 93–117. Springer International Publishing, Cham, 2018.
+Source: plant_desease.pdf
+Page: 42
+
+[102] M. Sardogan, A. Tuncer, and Y. Ozen. Plant leaf disease detection and classiﬁcation based on cnn with lvq algorithm. In 2018 3rd International Conference on Computer Science and Engineering (UBMK), pages 382–385, Sep. 2018. 42 Plant Diseases recognition on images using Convolutional Neural Networks: A Systematic Review A PREPRINT
+Source: plant_desease.pdf
+Page: 42
+
+[103] Konstantinos P. Ferentinos. Deep learning models for plant disease detection and diagnosis. Computers and Electronics in Agriculture, 145:311 – 318, 2018.
+Source: plant_desease.pdf
+Page: 43
+
+[104] J. Li, J. Jia, and D. Xu. Unsupervised representation learning of image-based plant disease with deep convolutional generative adversarial networks. In 2018 37th Chinese Control Conference (CCC), pages 9159–9163, July 2018.
+Source: plant_desease.pdf
+Page: 43
+
+[105] A. L. P. d. Ocampo and E. P. Dadios. Mobile platform implementation of lightweight neural network model for plant disease detection and recognition. In 2018 IEEE 10th International Conference on Humanoid, Nanotechnology, Information Technology,Communication and Control, Environment and Management (HNICEM), pages 1–4, Nov 2018.
+Source: plant_desease.pdf
+Page: 43
+
+[106] H. Q. Cap, K. Suwa, E. Fujita, S. Kagiwada, H. Uga, and H. Iyatomi. A deep learning approach for on-site plant leaf detection. In 2018 IEEE 14th International Colloquium on Signal Processing Its Applications (CSPA), pages 118–122, March 2018.
+Source: plant_desease.pdf
+Page: 43
+
+[107] H. F. Pardede, E. Suryawati, R. Sustika, and V. Zilvan. Unsupervised convolutional autoencoder-based feature learning for automatic detection of plant diseases. In 2018 International Conference on Computer, Control, Informatics and its Applications (IC3INA), pages 158–162, Nov 2018.
+Source: plant_desease.pdf
+Page: 43
+
+[108] Keke Zhang, Qiufeng Wu, Anwang Liu, and Xiangyan Meng. Can deep learning identify tomato leaf disease? Adv. in MM, 2018:6710865:1–6710865:10, 2018.
+Source: plant_desease.pdf
+Page: 43
+
+[109] Jingxian Wang, Lei Chen, Jian Zhang, Yuan Yuan, Miao Li, and WeiHui Zeng. Cnn transfer learning for automatic image-based classiﬁcation of crop disease. In Yongtian Wang, Zhiguo Jiang, and Yuxin Peng, editors, Image and Graphics Technologies and Applications, pages 319–329, Singapore, 2018. Springer Singapore.
+Source: plant_desease.pdf
+Page: 43
+
+[110] K. K. Singh. An artiﬁcial intelligence and cloud based collaborative platform for plant disease identiﬁcation, tracking and forecasting for farmers. In 2018 IEEE International Conference on Cloud Computing in Emerging Markets (CCEM), pages 49–56, Nov 2018.
+Source: plant_desease.pdf
+Page: 43
+
+[111] X. Zhang, Y. Qiao, F. Meng, C. Fan, and M. Zhang. Identiﬁcation of maize leaf diseases using improved deep convolutional neural networks. IEEE Access, 6:30370–30377, 2018.
+Source: plant_desease.pdf
+Page: 43
+
+[112] K. Kobayashi, J. Tsuji, and M. Noto. Evaluation of data augmentation for image-based plant-disease detection. In 2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC), pages 2206–2211, Oct 2018.
+Source: plant_desease.pdf
+Page: 43
+
+[113] Jayme G.A. Barbedo. Factors inﬂuencing the use of deep learning for plant disease recognition. Biosystems Engineering, 172:84 – 91, 2018.
+Source: plant_desease.pdf
+Page: 43
+
+[114] Keunho Park, Young ki Hong, Gook hwan Kim, and Joonwhoan Lee. Classiﬁcation of apple leaf conditions in hyper-spectral images for diagnosis of marssonina blotch using mrmr and deep neural network. Computers and Electronics in Agriculture, 148:179 – 187, 2018.
+Source: plant_desease.pdf
+Page: 43
+
+[115] Alvaro F. Fuentes, Sook Yoon, Jaesu Lee, and Dong Sun Park. High-performance deep neural network-based tomato plant diseases and pests diagnosis system with reﬁnement ﬁlter bank. Frontiers in Plant Science, 9:1162, 2018. 43 Plant Diseases recognition on images using Convolutional Neural Networks: A Systematic Review A PREPRINT
+Source: plant_desease.pdf
+Page: 43
+
+[116] Yuan Yuan, Sisi Fang, and Lei Chen. Crop disease image classiﬁcation based on transfer learning with dcnns. In Jian-Huang Lai, Cheng-Lin Liu, Xilin Chen, Jie Zhou, Tieniu Tan, Nanning Zheng, and Hongbin Zha, editors, Pattern Recognition and Computer Vision, pages 457–468, Cham, 2018. Springer International Publishing.
+Source: plant_desease.pdf
+Page: 44
+
+[117] Artzai Picon, Aitor Alvarez-Gila, Maximiliam Seitz, Amaia Ortiz-Barredo, Jone Echazarra, and Alexander Johannes. Deep convolutional neural networks for mobile capture device-based crop disease classiﬁcation in the wild. Computers and Electronics in Agriculture, 161:280 – 290, 2018. BigData and DSS in Agriculture.
+Source: plant_desease.pdf
+Page: 44
+
+[118] P. Tm, A. Pranathi, K. SaiAshritha, N. B. Chittaragi, and S. G. Koolagudi. Tomato leaf disease detection using convolutional neural networks. In 2018 Eleventh International Conference on Contemporary Computing (IC3), pages 1–5, Aug 2018.
+Source: plant_desease.pdf
+Page: 44
+
+[119] Guoliang Yang, Nan Xu, and Zhiyang Hong. Identiﬁcation of navel orange lesions by nolinear deep learning algorithm. Engenharia AgrÃcola, 38:783 – 796, 09 2018.
+Source: plant_desease.pdf
+Page: 44
+
+[120] Shichao Jin, Yanjun Su, Shang Gao, Fangfang Wu, Tianyu Hu, Jin Liu, Wenkai Li, Dingchang Wang, Shaojiang Chen, Yuanxi Jiang, Shuxin Pang, and Qinghua Guo. Deep learning: Individual maize segmentation from terrestrial lidar data using faster r-cnn and regional growth algorithms. Frontiers in Plant Science, 9:866, 2018.
+Source: plant_desease.pdf
+Page: 44
+
+[121] Serawork Wallelign, Mihai Polceanu, and Cédric Buche. Soybean Plant Disease Identiﬁcation Using Convolutional Neural Network. In FLAIRS-31, pages 146–151, Melbourne, United States, May 2018.
+Source: plant_desease.pdf
+Page: 44
+
+[122] L. Minh Dang, Syed [Ibrahim Hassan], Im Suhyeon, Arun kumar Sangaiah, Irfan Mehmood, Seungmin Rho, Sanghyun Seo, and Hyeonjoon Moon. Uav based wilt detection system via convolutional neural networks. Sustainable Computing: Informatics and Systems, 2018.
+Source: plant_desease.pdf
+Page: 44
+
+[123] L. Ren, M. Hu, Y. Fang, X. Du, and H. Feng. Recognition of common pests in agriculture and forestry based on convolutional neural networks. In 2018 Chinese Automation Congress (CAC), pages 2985–2989, Nov 2018.
+Source: plant_desease.pdf
+Page: 44
+
+[124] Muhammad Attique Khan, Tallha Akram, Muhammad Sharif, Muhammad Awais, Kashif Javed, Hashim Ali, and Tanzila Saba. Ccdf: Automatic system for segmentation and recognition of fruit crops diseases based on correlation coefﬁcient and deep cnn features. Computers and Electronics in Agriculture, 155:220 – 236, 2018.
+Source: plant_desease.pdf
+Page: 44
+
+[125] Ahmad Arib Alfarisy, Quan Chen, and Minyi Guo. Deep learning based classiﬁcation for paddy pests &#38; diseases recognition. In Proceedings of 2018 International Conference on Mathematics and Artiﬁcial Intelligence, ICMAI ’18, pages 21–25, New York, NY, USA, 2018. ACM.
+Source: plant_desease.pdf
+Page: 44
+
+[126] Hadrian Paulo M. Lim and Maria Regina Justina E. Estuar. Microscopic fusarium detection and veriﬁcation with convolutional neural networks. In Proceedings of the 2018 International Conference on Machine Learning Technologies, ICMLT ’18, pages 48–52, New York, NY, USA, 2018. ACM. 44 Plant Diseases recognition on images using Convolutional Neural Networks: A Systematic Review A PREPRINT
+Source: plant_desease.pdf
+Page: 44
+
+[127] Juncheng Ma, Keming Du, Feixiang Zheng, Lingxian Zhang, Zhihong Gong, and Zhongfu Sun. A recognition method for cucumber diseases using leaf symptom images based on deep convolutional neural network. Computers and Electronics in Agriculture, 154:18 – 24, 2018.
+Source: plant_desease.pdf
+Page: 45
+
+[128] Ronnel R. Atole and Daechul Park. A multiclass deep convolutional neural network classiﬁer for detection of common rice plant anomalies. International Journal of Advanced Computer Science and Applications, 9(1), 2018.
+Source: plant_desease.pdf
+Page: 45
+
+[129] Chowdhury Rafeed Rahman, Preetom Saha Arko, Mohammed Eunus Ali, Mohammad Ashik Iqbal Khan, Abu Wasif, Md. Rafsan Jani, and Md. Shahjahan Kabir. Identiﬁcation and recognition of rice diseases and pests using deep convolutional neural networks. CoRR, abs/1812.01043, 2018.
+Source: plant_desease.pdf
+Page: 45
+
+[130] Dor Oppenheim, Guy Shani, Orly Erlich, and Leah Tsror. Using deep learning for image-based potato tuber disease detection. Phytopathology, 109(6):1083–1087, 2019. PMID: 30543489.
+Source: plant_desease.pdf
+Page: 45
+
+[131] Aravind Krishnaswamy Rangarajan, Raja Purushothaman, and Aniirudh Ramesh. Tomato crop disease classiﬁcation using pre-trained deep learning algorithm. Procedia Computer Science, 133:1040 – 1047, 2018. International Conference on Robotics and Smart Manufacturing (RoSMa2018).
+Source: plant_desease.pdf
+Page: 45
+
+[132] Sheng-Hung Lee, Chia-Chang Wu, and Shih-Fang Chen. Development of Image Recognition and Classiﬁcation Algorithm for Tea Leaf Diseases Using Convolutional Neural Network. In 2018 Detroit, Michigan July 29 - August 1, 2018, page 1, St. Joseph, MI, 2018. American Society of Agricultural and Biological Engineers.
+Source: plant_desease.pdf
+Page: 45
+
+[133] Yu Li, Meiyu Qian, Pengfeng Liu, Qian Cai, Xiaoying Li, Junwen Guo, Huan Yan, Fengyuan Yu, Kun Yuan, Juan Yu, Luman Qin, Hongxin Liu, Wan Wu, Peiyun Xiao, and Ziwei Zhou. The recognition of rice images by uav based on capsule network. Cluster Computing, Mar 2018.
+Source: plant_desease.pdf
+Page: 45
+
+[134] Zhen Wang and Shanwen Zhang. Segmentation of corn leaf disease based on fully convolution neural network. In Francis-Press - Open Access Journals and Proceedings, pages 9–18, 2018.
+Source: plant_desease.pdf
+Page: 45
+
+[135] Mohamed Kerkech, Adel Haﬁane, and Raphael Canals. Deep leaning approach with colorimetric spaces and vegetation indices for vine diseases detection in uav images. Computers and Electronics in Agriculture, 155:237 – 243, 2018.
+Source: plant_desease.pdf
+Page: 45
+
+[136] Erika Fujita, Hiroyuki Uga, Satoshi Kagiwada, and Hitoshi Iyatomi. A practical plant diagnosis system for ﬁeld leaf images and feature visualization. In International Journal of Engineering & Technology, pages 49–54, 2018.
+Source: plant_desease.pdf
+Page: 45
+
+[137] H. Durmu¸s, E. O. Güne¸s, and M. Kırcı. Disease detection on the leaves of the tomato plants by using deep learning. In 2017 6th International Conference on Agro-Geoinformatics, pages 1–5, Aug 2017.
+Source: plant_desease.pdf
+Page: 45
+
+[138] Yang Lu, Shujuan Yi, Nianyin Zeng, Yurong Liu, and Yong Zhang. Identiﬁcation of rice diseases using deep convolutional neural networks. Neurocomputing, 267:378 – 384, 2017.
+Source: plant_desease.pdf
+Page: 45
+
+[139] Guan Wang, Yu Sun, and Jianxin Wang. Automatic Image-Based Plant Disease Severity Estimation Using Deep Learning. Computational Intelligence and Neuroscience, 2017:1–8, jul 2017. 45 Plant Diseases recognition on images using Convolutional Neural Networks: A Systematic Review A PREPRINT
+Source: plant_desease.pdf
+Page: 45
+
+[140] Alvaro Fuentes, Sook Yoon, Sang Cheol Kim, and Dong Sun Park. A robust deep-learning-based detector for real-time tomato plant diseases and pests recognition. Sensors, 17(9), 2017.
+Source: plant_desease.pdf
+Page: 46
+
+[141] Chad DeChant, Tyr Wiesner-Hanks, Siyuan Chen, Ethan L. Stewart, Jason Yosinski, Michael A. Gore, Rebecca J. Nelson, and Hod Lipson. Automated identiﬁcation of northern leaf blight-infected maize plants from ﬁeld imagery using deep learning. Phytopathology, 107(11):1426–1432, 2017. PMID: 28653579.
+Source: plant_desease.pdf
+Page: 46
+
+[142] H. Park, J. Eun, and S. Kim. Image-based disease diagnosing and predicting of the crops through the deep learning mechanism. In 2017 International Conference on Information and Communication Technology Convergence (ICTC), pages 129–131, Oct 2017.
+Source: plant_desease.pdf
+Page: 46
+
+[143] Habibollah Agh Atabay. Deep residual learning for tomato plant leaf disease identiﬁcation. Journal of Theoretical and Applied Information Technology, 95:866, 2017.
+Source: plant_desease.pdf
+Page: 46
+
+[144] Amanda Ramcharan, Kelsee Baranowski, Peter McCloskey, Babuali Ahmed, James Legg, and David P. Hughes. Deep learning for image-based cassava disease detection. Frontiers in Plant Science, 8:1852, 2017.
+Source: plant_desease.pdf
+Page: 46
+
+[145] Z. Peng and C. Cai. An effective segmentation algorithm of apple watercore disease region using fully convolutional neural networks. In 2017 Asia-Paciﬁc Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC), pages 1292–1299, Dec 2017.
+Source: plant_desease.pdf
+Page: 46
+
+[146] Kyosuke Yamamoto, Takashi Togami, and Norio Yamaguchi. Super-resolution of plant disease images for the acceleration of image-based phenotyping and vigor diagnosis in agriculture. Sensors, 17(11), 2017.
+Source: plant_desease.pdf
+Page: 46
+
+[147] Milan Šulc and Jiˇrí Matas. Fine-grained recognition of plants from images. Plant Methods, 13(1):115, dec 2017.
+Source: plant_desease.pdf
+Page: 46
+
+[148] Emanuel Cortes. Plant Disease Classiﬁcation Using Convolutional Networks and Generative Adverserial Networks. Technical report, Stanford University, 2017.
+Source: plant_desease.pdf
+Page: 46
+
+[149] Yu Sun, Lin Zhu, Guan Wang, and Fang Zhao. Multi-Input Convolutional Neural Network for Flower Grading. Journal of Electrical and Computer Engineering, 2017:1–8, aug 2017.
+Source: plant_desease.pdf
+Page: 46
+
+[150] Jin Gwan Ha, Hyeonjoon Moon, Jin Tae Kwak, Syed Ibrahim Hassan, Minh Dang, O New Lee, and Han Yong Park. Deep convolutional neural network for classifying fusarium wilt of radish from unmanned aerial vehicles. Journal of Applied Remote Sensing, 11(4):1 – 14 – 14, 2017.
+Source: plant_desease.pdf
+Page: 46
+
+[151] Jihen Amara, Bassem Bouaziz, and Alsayed Algergawy. A deep learning-based approach for banana leaf diseases classiﬁcation. In BTW, pages 12–20, 2017.
+Source: plant_desease.pdf
+Page: 46
+
+[152] Srdjan Sladojevic, Marko Arsenovic, Andras Anderla, Dubravko Culibrk, and Darko Stefanovic. Deep Neural Networks Based Recognition of Plant Diseases by Leaf Image Classiﬁcation. Computational Intelligence and Neuroscience, 2016:1–11, jun 2016. 46 Plant Diseases recognition on images using Convolutional Neural Networks: A Systematic Review A PREPRINT
+Source: plant_desease.pdf
+Page: 46
+
+[153] Wenxue Tan, Chunjiang Zhao, and Huarui Wu. Intelligent alerting for fruit-melon lesion image based on momentum deep learning. Multimedia Tools and Applications, 75(24):16741–16761, Dec 2016.
+Source: plant_desease.pdf
+Page: 47
+
+[154] L. G. Nachtigall, R. M. Araujo, and G. R. Nachtigall. Classiﬁcation of apple tree disorders using convolutional neural networks. In 2016 IEEE 28th International Conference on Tools with Artiﬁcial Intelligence (ICTAI), pages 472–476, Nov 2016.
+Source: plant_desease.pdf
+Page: 47
+
+[155] E. Fujita, Y. Kawasaki, H. Uga, S. Kagiwada, and H. Iyatomi. Basic investigation on a robust and practical plant diagnostic system. In 2016 15th IEEE International Conference on Machine Learning and Applications (ICMLA), pages 989–992, Dec 2016.
+Source: plant_desease.pdf
+Page: 47
+
+[156] Habibollah Agh Atabay. A convolutional neural network with a new architecture applied on leaf classiﬁcation. IIOAB J, 7(5):226–331, 2016.
+Source: plant_desease.pdf
+Page: 47
+
+[157] Yusuke Kawasaki, Hiroyuki Uga, Satoshi Kagiwada, and Hitoshi Iyatomi. Basic study of automated diagnosis of viral plant diseases using convolutional neural networks. In George Bebis, Richard Boyle, Bahram Parvin, Darko Koracin, Ioannis Pavlidis, Rogerio Feris, Tim McGraw, Mark Elendt, Regis Kopper, Eric Ragan, Zhao Ye, and Gunther Weber, editors, Advances in Visual Computing, pages 638–645, Cham, 2015. Springer International Publishing. 47
+Source: plant_desease.pdf
+Page: 47
+
+[1] Amara, J., Bouaziz, B., Algergawy, A.: A deep learning-based approach for banana leaf diseases classification. Datenbanksysteme f¨ur Business, Technologie und Web (BTW 2017)-Workshopband (2017)
+Source: rice_desease.pdf
+Page: 10
+
+[2] Ampatzidis, Y., Partel, V.: Uav-based high throughput phenotyping in citrus uti- lizing multispectral imaging and artificial intelligence. Remote Sensing 11(4), 410 (2019)
+Source: rice_desease.pdf
+Page: 10
+
+[3] Candiago, S., Remondino, F., De Giglio, M., Dubbini, M., Gattelli, M.: Evaluating multispectral images and vegetation indices for precision farming applications from uav images. Remote sensing 7(4), 4026–4047 (2015)
+Source: rice_desease.pdf
+Page: 10
+
+[4] Cui, D., Zhang, Q., Li, M., Hartman, G.L., Zhao, Y.: Image processing methods for quantitatively detecting soybean rust from multispectral images. Biosystems engineering 107(3), 186–193 (2010)
+Source: rice_desease.pdf
+Page: 10
+
+[5] Elbasiouny, H., Elbehiry, F.: Rice production in egypt: the challenges of climate change and water deficiency. In: Climate change impacts on agriculture and food security in Egypt, pp. 295–319. Springer (2020)
+Source: rice_desease.pdf
+Page: 10
+
+[6] He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image recognition. In: Proceedings of the IEEE conference on computer vision and pattern recognition. pp. 770–778 (2016)
+Source: rice_desease.pdf
+Page: 10
+
+[7] Loshchilov, I., Hutter, F.: Sgdr: Stochastic gradient descent with warm restarts. arXiv preprint arXiv:1608.03983 (2016)
+Source: rice_desease.pdf
+Page: 10
+
+[8] Mohanty, S.P., Hughes, D.P., Salath´e, M.: Using deep learning for image-based plant disease detection. Frontiers in plant science 7, 1419 (2016)
+Source: rice_desease.pdf
+Page: 10
+
+[9] Nalley, L., Tsiboe, F., Durand-Morat, A., Shew, A., Thoma, G.: Economic and environmental impact of rice blast pathogen (magnaporthe oryzae) alleviation in the united states. PloS one 11(12), e0167295 (2016)
+Source: rice_desease.pdf
+Page: 10
+
+[10] Osorio, K., Puerto, A., Pedraza, C., Jamaica, D., Rodr´ıguez, L.: A deep learning approach for weed detection in lettuce crops using multispectral images. AgriEngi- neering 2(3), 471–488 (2020)
+Source: rice_desease.pdf
+Page: 10
+
+[11] Qin, J., Chao, K., Kim, M.S., Lu, R., Burks, T.F.: Hyperspectral and multispectral imaging for evaluating food safety and quality. Journal of Food Engineering 118(2), 157–171 (2013). https://doi.org/https://doi.org/10.1016/j.jfoodeng.2013.04.001, https://www.sciencedirect.com/science/article/pii/S0260877413001659
+Source: rice_desease.pdf
+Page: 10
+
+[12] Zhang, D., Zhou, X., Zhang, J., Lan, Y., Xu, C., Liang, D.: Detection of rice sheath blight using an unmanned aerial system with high-resolution color and multispectral imaging. PloS one 13(5), e0187470 (2018)
+Source: rice_desease.pdf
+Page: 10
+
+
+QUALITY CHECK SUMMARY
+Short entries: 1
+Number-only entries: 0
+Possible duplicates: 1
