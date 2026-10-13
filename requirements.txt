@@ -8,3 +8,4 @@ requests
 pypdf
 python-dotenv
 ollama
+pymupdf
