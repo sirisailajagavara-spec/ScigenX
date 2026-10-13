@@ -7,9 +7,6 @@ from src.scigenx_core import (
     verify_answer_citations,
 )
 
-# --------------------------------------------------
-# PAGE CONFIGURATION
-# --------------------------------------------------
 st.set_page_config(
     page_title="SciGenX | Research Assistant",
     page_icon="🔬",
@@ -17,9 +14,6 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# --------------------------------------------------
-# PROFESSIONAL WHITE THEME + ANIMATIONS
-# --------------------------------------------------
 st.markdown(
     """
     <style>
@@ -525,9 +519,6 @@ if analyze_clicked:
             st.error("Research analysis failed.")
             st.exception(error)
 
-# --------------------------------------------------
-# DISPLAY RESULTS
-# --------------------------------------------------
 result = st.session_state.get("scigenx_result")
 
 if result:
@@ -556,7 +547,6 @@ if result:
     matched_count = len(matched) if isinstance(matched, list) else 0
     unmatched_count = len(unmatched) if isinstance(unmatched, list) else 0
 
-    # Overview metrics
     st.markdown(
         '<div class="section-heading">Research overview</div>',
         unsafe_allow_html=True,
@@ -569,7 +559,6 @@ if result:
     col3.metric("Evidence Sources", len(sources))
     col4.metric("Text Chunks", total_chunks)
 
-    # Research answer
     st.divider()
     st.markdown(
         '<div class="section-heading">🧠 Research analysis</div>',
@@ -578,7 +567,7 @@ if result:
 
     st.markdown(answer)
 
-    # Citation verification
+    
     st.divider()
     st.markdown(
         '<div class="section-heading">✓ Citation verification</div>',
@@ -642,7 +631,7 @@ if result:
         "supports the scientific claim."
     )
 
-    # Evidence sources
+    
     st.divider()
     st.markdown(
         '<div class="section-heading">📑 Retrieved evidence</div>',
