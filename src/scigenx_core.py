@@ -8,20 +8,11 @@ import pymupdf
 from sentence_transformers import SentenceTransformer
 
 
-# --------------------------------------------------
-# CONFIGURATION
-# --------------------------------------------------
-
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 LLM_MODEL = "llama3.2:latest"
 
-# Load the embedding model once.
 embedding_model = SentenceTransformer(EMBEDDING_MODEL)
 
-
-# --------------------------------------------------
-# PDF TEXT EXTRACTION
-# --------------------------------------------------
 
 def extract_pdf_text(pdf_files):
     """Extract readable text from uploaded PDF files."""
@@ -54,10 +45,6 @@ def extract_pdf_text(pdf_files):
 
     return documents
 
-
-# --------------------------------------------------
-# REFERENCE EXTRACTION
-# --------------------------------------------------
 
 def extract_references(documents):
     """Extract numbered entries from identified reference sections."""
@@ -150,10 +137,6 @@ def extract_references(documents):
     return reference_entries
 
 
-# --------------------------------------------------
-# DOCUMENT CHUNKING
-# --------------------------------------------------
-
 def chunk_documents(documents, chunk_size=700, overlap=100):
     """Split page text into overlapping chunks."""
 
@@ -196,11 +179,6 @@ def chunk_documents(documents, chunk_size=700, overlap=100):
 
     return chunks
 
-
-# --------------------------------------------------
-# FAISS INDEX
-# --------------------------------------------------
-
 def build_faiss_index(chunks):
     """Create normalized embeddings and a FAISS index."""
 
@@ -234,10 +212,6 @@ def build_faiss_index(chunks):
 
     return index, embeddings
 
-
-# --------------------------------------------------
-# EVIDENCE RETRIEVAL
-# --------------------------------------------------
 
 def retrieve_evidence(
     question,
@@ -290,21 +264,12 @@ def retrieve_evidence(
     return evidence
 
 
-# --------------------------------------------------
-# CITATION FORMAT
-# --------------------------------------------------
-
 CITATION_PATTERN = re.compile(
     r"\[\s*Source:\s*([^,\]]+?)\s*,\s*"
     r"PDF\s+page:\s*(\d+)"
     r"(?:\s*[-–]\s*(\d+))?\s*\]",
     re.IGNORECASE
 )
-
-
-# --------------------------------------------------
-# FALLBACK CITATION LIST
-# --------------------------------------------------
 
 def _append_evidence_citations(
     answer,
@@ -373,10 +338,6 @@ def _append_evidence_citations(
     )
 
 
-# --------------------------------------------------
-# RESEARCH ANSWER GENERATION
-# --------------------------------------------------
-
 def generate_research_answer(
     question,
     evidence
@@ -398,9 +359,6 @@ def generate_research_answer(
             "retrieved from the uploaded research papers."
         )
 
-    # --------------------------------------------------
-    # Build evidence context
-    # --------------------------------------------------
 
     context_parts = []
 
@@ -422,9 +380,6 @@ def generate_research_answer(
         context_parts
     )
 
-    # --------------------------------------------------
-    # Scientific research prompt
-    # --------------------------------------------------
 
     prompt = f"""
 You are SciGenX, an evidence-grounded scientific research assistant.
@@ -748,10 +703,6 @@ Return ONLY the final research answer in Markdown.
     return answer
 
 
-# --------------------------------------------------
-# COMPLETE RESEARCH ANALYSIS PIPELINE
-# --------------------------------------------------
-
 def analyze_research(
     pdf_files,
     question
@@ -774,9 +725,6 @@ def analyze_research(
         - total_chunks
     """
 
-    # --------------------------------------------------
-    # Validate input
-    # --------------------------------------------------
 
     if not pdf_files:
         raise ValueError(
@@ -791,17 +739,11 @@ def analyze_research(
             "Please enter a research question."
         )
 
-    # --------------------------------------------------
-    # Step 1: Extract text from PDFs
-    # --------------------------------------------------
-
     documents = extract_pdf_text(
         pdf_files
     )
 
-    # --------------------------------------------------
-    # Step 2: Create overlapping chunks
-    # --------------------------------------------------
+
 
     chunks = chunk_documents(
         documents,
@@ -814,17 +756,10 @@ def analyze_research(
             "No usable text chunks were created."
         )
 
-    # --------------------------------------------------
-    # Step 3: Build FAISS vector index
-    # --------------------------------------------------
 
     index, _ = build_faiss_index(
         chunks
     )
-
-    # --------------------------------------------------
-    # Step 4: Retrieve relevant evidence
-    # --------------------------------------------------
 
     sources = retrieve_evidence(
         question=question.strip(),
@@ -833,18 +768,10 @@ def analyze_research(
         top_k=5
     )
 
-    # --------------------------------------------------
-    # Step 5: Generate research answer
-    # --------------------------------------------------
-
     answer = generate_research_answer(
         question=question.strip(),
         evidence=sources
     )
-
-    # --------------------------------------------------
-    # Step 6: Return result
-    # --------------------------------------------------
 
     return {
         "answer": answer,
@@ -852,11 +779,6 @@ def analyze_research(
         "total_pages_with_text": len(documents),
         "total_chunks": len(chunks)
     }
-
-
-# --------------------------------------------------
-# CITATION VERIFICATION
-# --------------------------------------------------
 
 def verify_answer_citations(
     answer,
@@ -882,9 +804,6 @@ def verify_answer_citations(
             )
         }
 
-    # --------------------------------------------------
-    # Build valid source/page combinations
-    # --------------------------------------------------
 
     valid_sources = set()
 
@@ -901,10 +820,6 @@ def verify_answer_citations(
             (source, page)
         )
 
-    # --------------------------------------------------
-    # Find citations in generated answer
-    # --------------------------------------------------
-
     matches = list(
         CITATION_PATTERN.finditer(
             answer or ""
@@ -914,9 +829,6 @@ def verify_answer_citations(
     matched_citations = []
     unmatched_citations = []
 
-    # --------------------------------------------------
-    # Validate every citation
-    # --------------------------------------------------
 
     for match in matches:
 
@@ -989,10 +901,6 @@ def verify_answer_citations(
                 citation
             )
 
-    # --------------------------------------------------
-    # Determine verification status
-    # --------------------------------------------------
-
     if not matches:
 
         status = (
@@ -1027,10 +935,6 @@ def verify_answer_citations(
             "independently verify that each passage "
             "supports its associated scientific claim."
         )
-
-    # --------------------------------------------------
-    # Return verification result
-    # --------------------------------------------------
 
     return {
         "status": status,
